@@ -1,0 +1,2 @@
+module Rolls::ScansHelper
+end
