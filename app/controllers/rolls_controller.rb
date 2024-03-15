@@ -1,4 +1,4 @@
-class RollsController < ApplicationController
+class RollsController < AuthenticatedController
   before_action :roll, except: %i[index new create]
 
   def index; end

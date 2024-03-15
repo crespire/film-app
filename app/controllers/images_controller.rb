@@ -1,4 +1,3 @@
-class ImagesController < ApplicationController
-  def index
-  end
+class ImagesController < PublicController
+  def index; end
 end
